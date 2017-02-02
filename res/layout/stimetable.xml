@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_marginTop="-20dp"
+
+	android:descendantFocusability="beforeDescendants">
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/error"
+        android:visibility="gone"
+        android:paddingBottom="20dp"
+        android:paddingTop="100dp"
+
+        android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/errorcloud"
+        android:src="@drawable/error_view_cloud"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:id="@+id/errortext"
+        android:text="No Internet Connection"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:textColor="#CC000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+    
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent"	android:layout_marginTop="0dp"
+		android:layout_height="match_parent" >
+<ScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+<HorizontalScrollView   android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+   	<FrameLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_marginTop="-20dp"
+	android:background="@drawable/photo2"		
+	android:descendantFocusability="beforeDescendants">
+
+   		<ImageView
+   		    android:id="@+id/timeimg"
+   		    
+   		    android:layout_width="350dp"
+   		    android:layout_height="550dp"
+   		    android:layout_gravity="center"
+   		    android:layout_marginTop="200dp"
+   		   android:layout_marginBottom="200dp"
+   
+   		 	 />
+
+   		<ZoomControls
+   		    android:id="@+id/zoomControls1"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_gravity="top"
+   		    android:layout_marginTop="700dp"
+   		    android:paddingLeft="150dp"
+   		    />
+ 
+	</FrameLayout>  </HorizontalScrollView> </ScrollView>	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp">
+
+	<ImageView
+	    android:id="@+id/imageView2"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/backimg" />
+</LinearLayout>
+
+	</LinearLayout></LinearLayout>
+</FrameLayout>

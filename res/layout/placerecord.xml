@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+   
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/error"
+        android:visibility="gone"
+        android:paddingBottom="20dp"
+        android:paddingTop="50dp"
+
+        android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/errorcloud"
+        android:src="@drawable/error_view_cloud"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:id="@+id/errortext"
+        android:text="No Internet Connection"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:textColor="#CC000000"/>
+    </LinearLayout><LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+
+
+        <ScrollView
+            style="@style/scrollbar_shape_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/g231" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.1"  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                android:orientation="vertical" >
+
+                <ListView
+   
+                    
+                    android:id="@+id/listView1"
+                    android:layout_gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1250dp"
+                    android:divider="@null"
+                 />
+                          <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF3300"
+        android:text="Note:PieChart Displays No. Of Student Placed"
+        android:textAppearance="?android:attr/textAppearanceLarge" />     
+            </LinearLayout>
+      
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#CCCCCC" />
+
+        
+    </LinearLayout>
+
+   
+</FrameLayout>
+

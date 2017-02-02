@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<RelativeLayout   android:layout_width="fill_parent"
+         android:layout_marginTop="-10dp"
+    android:layout_height="110dp">
+ <ImageView
+     android:id="@+id/imageView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true" />
+
+ <ImageView
+     android:id="@+id/imageView3"
+     android:layout_width="wrap_content"
+     android:layout_height="100dp"
+     android:layout_marginTop="10dp"
+     android:layout_alignBottom="@+id/imageView1"
+     android:layout_toRightOf="@+id/imageView1" />
+
+</RelativeLayout>   		        
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	
+	android:layout_height="match_parent">
+<TabHost 
+         android:id="@android:id/tabhost"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+            
+         >
+    <LinearLayout
+            
+             android:paddingTop="-10dp"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+           
+            >
+        <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"   
+                android:layout_height="wrap_content"
+  android:background="@drawable/tab_selector"
+                />
+        <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+              
+                />
+    </LinearLayout>
+</TabHost>
+
+</LinearLayout>
+
+<ImageView
+    android:id="@+id/imageView2"
+      
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="0dp"
+    android:background="@drawable/backimg" />
+
+</LinearLayout>

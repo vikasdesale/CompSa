@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/logo"
+        android:background="#fffacd"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#9932cc"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/date"
+           android:layout_toRightOf="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view1"
+        android:layout_below="@+id/title"
+          android:background="#fffacd"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+          android:textColor="#9932cc"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ee0000" />
+
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="2dip"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/date"
+         android:background="#ee0000" />
+
+     <ImageView
+         android:id="@+id/logo"
+         android:layout_width="100dp"
+         android:layout_marginTop="2dp"
+         android:layout_marginBottom="2dp"
+         android:layout_height="66dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/Id"
+         android:background="#fffacd"
+         android:src="@drawable/clogo" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+  
+
+
+
+  <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+         <item name="android:popupBackground">#FFFFE7</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+  <!-- Change Overflow Menu ListView Text Size and Text Size -->
+     <style name="PopupMenuTextView" parent="@style/android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:textColor">#330011</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+ 
+     <!-- Change Overflow Menu Background -->
+     <style name="PopupMenu" parent="android:Widget.PopupMenu">
+        <item name="android:popupBackground">#FFFFE7</item></style>
+    <style name="DashboardButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@null</item>
+    </style>
+        <style name="scrollbar_shape_style">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>
+        <item name="android:scrollbarSize">8dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+   
+      
+
+</resources>

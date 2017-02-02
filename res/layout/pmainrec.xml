@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+   
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/error"
+        android:visibility="gone"
+        android:paddingBottom="20dp"
+        android:paddingTop="50dp"
+
+        android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/errorcloud"
+        android:src="@drawable/error_view_cloud"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:id="@+id/errortext"
+        android:text="No Internet Connection"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:textColor="#CC000000"/>
+    </LinearLayout>
+   <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#CCCCCC" />
+
+        <ScrollView
+            style="@style/scrollbar_shape_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/g231" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.1"
+                android:orientation="horizontal" >
+
+ <GridView
+     android:id="@+id/gridView1"
+     android:layout_width="match_parent"
+     android:layout_height="450dp"
+     android:numColumns="2" >
+
+	    </GridView>
+            </LinearLayout>
+        </ScrollView>
+
+   
+    </LinearLayout>
+
+</FrameLayout>
+

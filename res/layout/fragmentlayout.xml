@@ -1,0 +1,71 @@
+<com.geca.compsa.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="650dp"
+    android:layout_weight="1"
+   >
+
+    <Button
+        android:id="@+id/btn_aboutus"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/aboutgg"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/btn_faculties"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/faculty"
+        android:text="Faculties" />
+    <Button
+        android:id="@+id/btn_students"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/student"
+        android:text="Students" />
+    
+   
+    <Button
+        android:id="@+id/btn_gallery"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/gallery"
+        android:text="Gallery" />
+
+    <Button
+        android:id="@+id/btn_study"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/add"
+        android:text="Admission" />
+
+    <Button
+        android:id="@+id/btn_news"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/news"
+        android:text="News" />
+ <Button
+        android:id="@+id/btn_placement"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/placements"
+        android:text="Placement" />
+
+
+  <Button
+        android:id="@+id/btn_events"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/events"
+        android:text="Events" />
+    
+   
+   
+    <Button
+        android:id="@+id/btn_enquiry"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/enquiry"
+        android:text="Enquiry" />
+    <Button
+        android:id="@+id/btn_sponsors"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/sponsors"
+        android:text="Sponsors" />
+ 
+    
+
+
+</com.geca.compsa.DashboardLayout>

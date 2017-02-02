@@ -1,0 +1,34 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <!-- API 14 theme customizations can go here. -->
+           <item name="android:dropDownListViewStyle">@style/PopupMenuListView</item>
+        <item name="android:actionBarWidgetTheme">@style/PopupMenuTextView</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+
+        <!-- Change Overflow Menu ListView Item Height & Property -->
+        <item name="android:listPreferredItemHeightSmall">20dp</item>
+        
+        <item name="android:listPreferredItemPaddingLeft">2dp</item>
+        <item name="android:listPreferredItemPaddingRight">0dp</item>
+    </style>
+  <!-- Change Overflow Menu ListView Text Size and Text Size -->
+     <style name="PopupMenuTextView" parent="@style/android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:textColor">#330011</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+     <!-- Change Overflow Menu ListView Divider Property -->
+    <style name="PopupMenuListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:divider">#FFFF99</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+     <!-- Change Overflow Menu Background -->
+     <style name="PopupMenu" parent="android:Widget.PopupMenu">
+        <item name="android:popupBackground">#FFFFE7</item>
+    </style>
+</resources>

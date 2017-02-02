@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CompSa</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+   <string name="acomp">
+Computers have captured the world. Today there is no single field were computers have not left a mark. The Department of Computer Science and Engineering established in 1986 is dedicated to produce students who excel in this field. The department aims at IT based Learning, Development of Entrepreneurship among student and become a Centre of Excellence. The Department places high priority on establishing and maintaining innovative research programs that enhance the educational opportunity and encourage a broad base of extramural support to prepare future generations of computer professionals for long term careers in research, technical development and applications. The department has organized many series of expert lecture for the students on the latest developing trends in computer industry.
+         </string>
+  
+    <string name="ageca">
+        The Government College of Engineering, Aurangabad (GECA), is the premier technical institute in Marathwada region of Maharashtra State. It is established in 1960, by the Government of Maharashtra, with the view of catering to Maharashtra state technical expertise requirements. The institution has earned well repute over period of time by its continuous pursuing to qualitative and competitive needs of the technical world. GECA has the distinction of being graded A amongst the colleges located in the state of Maharashtra by the Directorate of Technical Education, Mumbai.
+Earlier the institute was affiliated to Dr. Babasaheb Ambedkar Marathwada University, Aurangabad and now the institute is autonomous since 2006. It is approved by AICTE (All India Council for Technical Education) and maximum courses are accredited by National Board of Accreditation New Delhi.
+The institute is situated in the heart of the city in the Osmanpura area sprawling over a campus of 30 acres with magnificent ashlars masonry buildings housing various Departments, Workshop, Hostels and other facilities.
+
+   </string>    <string name="login">Login</string>
+    <string name="about">About</string>
+    <string name="placep">
+    1.At the end of VI semester, data base is created based on the information asked to submit in the format provided by T And P office.\n
+    2.T And P office scrutinize and verify the details provided by the students and certify the data base.\n
+    3.The Placement Office sends invitations to companies/organizations along with relevant information.\n
+    4.Company/ Organization send the details of the job offer ( Company profile, Eligibility criteria, pay package, place of posting and allowances) to the placement office.\n
+    5.Details of the job offer are displayed on the T and P notice board, circulate on web group and also send the SMS to the students\n
+    6.If the company/ organization wish to conduct a Pre-Placement Talk (PPT) they can sent a request along with the preferred dates.\n
+    7.Placement Office allots dates to companies for campus interviews based on various details given by the companies. The company/ organization confirm the dates with the Placement Office.\n
+    8.Interested students show their willingness to appear for the recruitment process of a company.\n
+    9.T and P office sends the details, resumes of the interested students to the companies to shortlist students as per their eligibility criteria.\n
+    10.Companies come down to the campus on the allotted date/s and conduct online/written tests and/or interviews according to their recruitment process.\n
+    11.The company/ organization is required to furnish the final list of students preferably on the date of interview.\n
+    12.The company/organization hand over the offer letters to the students on the same day or as confirmed with the T and P office.\n
+Note: The placement office records jobs corresponding to the students selected. Students once placed may not be allowed to appear for other interviews as per the institute placement policy.</string>
+<string name="choose_format_title">Choose Audio Format</string>
+<string name="start_recording">Record</string>
+<string name="stop_recording">Stop</string>
+<string name="audio_format">Format</string>
+</resources>

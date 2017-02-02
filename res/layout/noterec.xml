@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/gback" >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="marquee"
+        android:text="Record Lecture"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#33FF22"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/play1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.35"
+            android:background="@drawable/f3"
+            android:text="play" />
+
+        <Button
+            android:id="@+id/playl"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.29"
+            android:background="@drawable/f3"
+            android:text="play All" />
+
+        <Button
+            android:id="@+id/stopPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.28"
+            android:background="@drawable/f3"
+            android:text="pause" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/f3"
+            android:text="@string/start_recording" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.36"
+            android:background="@drawable/f3"
+            android:text="@string/stop_recording" />
+
+        <Button
+            android:id="@+id/btnFormat"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/f3"
+            android:text="Format (mp4)" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Short Lecture Notes"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#33FF22"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/roundedit"
+        android:cursorVisible="true"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.14"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Save111"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.12"
+            android:background="@drawable/f3"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/Exit111"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.13"
+            android:background="@drawable/f3"
+            android:text="Exit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bCut111"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.28"
+            android:background="@drawable/f3"
+            android:text="Cut" />
+
+        <Button
+            android:id="@+id/bCopy111"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.22"
+            android:background="@drawable/f3"
+            android:text="Copy" />
+
+        <Button
+            android:id="@+id/bPaste111"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.21"
+            android:background="@drawable/f3"
+            android:text="Paste" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_marginTop="0dp"
+
+	android:descendantFocusability="beforeDescendants">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+<RelativeLayout   android:layout_width="match_parent"  android:layout_marginTop="-10dp"
+    android:layout_height="110dp">
+ <ImageView
+     android:id="@+id/imageView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true" />
+
+ <ImageView
+     android:id="@+id/imageView3"
+     android:layout_width="wrap_content"
+     android:layout_height="100dp"
+     android:layout_marginTop="10dp"
+     android:layout_alignBottom="@+id/imageView1"
+     android:layout_toRightOf="@+id/imageView1" />
+
+</RelativeLayout>
+	<FrameLayout
+	android:layout_width="match_parent"
+	android:layout_height="390dp"
+	android:layout_marginTop="0dp"
+	android:paddingLeft="15dp"
+	android:paddingRight="15dp"
+	android:background="@drawable/photo9"
+	android:descendantFocusability="beforeDescendants">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="130dp"
+		android:layout_marginTop="40dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:paddingBottom="10dp"
+		android:paddingRight="10dp"
+		android:background="@drawable/card_background_selector_about"
+		android:descendantFocusability="afterDescendants">
+<ImageView
+	    android:id="@+id/iFacebook"
+	    android:layout_width="70dp"
+	    android:layout_height="70dp"
+	    android:src="@drawable/facebook" />
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+					android:paddingLeft="5dp"
+					android:layout_gravity="bottom"
+					android:layout_marginLeft="-75dp"
+				android:layout_marginTop="10dp"
+		android:paddingTop="5dp"
+		android:textColor="#330011"
+		android:paddingBottom="5dp"
+		android:paddingRight="5dp"
+			android:textSize="18dp"
+			android:text="Facebook"/>
+
+<ImageView
+	    android:id="@+id/iGoogle"
+	    android:layout_width="70dp"
+	    android:layout_height="70dp"
+	    android:layout_marginLeft="15dp"
+	    android:src="@drawable/googleplus" />
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+					android:paddingLeft="5dp"
+					android:layout_gravity="bottom"
+					android:layout_marginLeft="-85dp"
+		android:paddingTop="5dp"
+		android:textColor="#330011"
+		android:paddingBottom="5dp"
+		android:paddingRight="5dp"
+			android:textSize="18dp"
+			android:text="Google Plus"/>
+		<ImageView
+	    android:id="@+id/iShare"
+	    android:layout_width="70dp"
+	    android:layout_height="70dp"
+	    android:layout_marginLeft="5dp"
+	    android:src="@drawable/share" />
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+					android:paddingLeft="5dp"
+					android:layout_gravity="bottom"
+					android:layout_marginLeft="-60dp"
+		android:paddingTop="5dp"
+		android:textColor="#330011"
+		android:paddingBottom="5dp"
+		android:paddingRight="5dp"
+			android:textSize="18dp"
+			android:text="Share"/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="140dp"
+		android:layout_marginTop="200dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="10dp"
+		android:paddingRight="10dp"
+		android:background="@drawable/card_background_selector_about"
+		android:descendantFocusability="afterDescendants">
+
+
+<ImageView
+	    android:id="@+id/imageButton1"
+	    android:layout_width="100dp"
+	    android:layout_height="118dp"
+	    android:layout_marginLeft="10dp"
+	    android:src="@drawable/vabout" />
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+					android:paddingLeft="5dp"
+					android:layout_gravity="right"
+
+		android:paddingTop="30dp"
+		android:textColor="#330011"
+		android:paddingBottom="5dp"
+		android:paddingRight="5dp"
+			android:textSize="20dp"
+			android:text="  Developed By Mr. Vikas Desale"/>
+	</LinearLayout>
+	</FrameLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp">
+
+	<ImageView
+	    android:id="@+id/imageView2"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/backimg" />
+</LinearLayout>
+
+	</LinearLayout>
+</FrameLayout>

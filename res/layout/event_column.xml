@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"          
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#9932cc"
+        android:background="#fffacd"
+        android:textSize="16dp" />
+ <RelativeLayout 
+    android:layout_width="fill_parent"        
+    android:layout_height="wrap_content"         
+  android:background="#fffacd"    android:layout_below="@+id/date">
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ 
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#ff69b4"
+        android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/time"
+           android:layout_marginLeft="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textColor="#3399FF"
+            android:textSize="16dp" />
+
+        <TextView
+        android:id="@+id/Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0dp" />    <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/title"
+            android:background="#ee0000" />
+</RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/date"
+            android:background="#ee0000" />
+
+    
+
+</RelativeLayout>
+
+
+

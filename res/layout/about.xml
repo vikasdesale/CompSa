@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:r="http://schemas.android.com/apk/res-auto" 
+    android:layout_width="fill_parent"    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+<RelativeLayout   android:layout_width="match_parent" android:background="@drawable/backimg"
+    android:layout_height="110dp">
+ <ImageView
+     android:id="@+id/imageView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true" />
+
+ <ImageView
+     android:id="@+id/imageView3"
+     android:layout_width="wrap_content"
+     android:layout_height="100dp"
+     android:layout_marginTop="10dp"
+     android:layout_alignBottom="@+id/imageView1"
+     android:layout_toRightOf="@+id/imageView1" />
+
+</RelativeLayout>
+
+<ScrollView
+  
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    android:orientation="vertical"
+    android:background="#009688"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:id="@+id/aboutgecal"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:background="@drawable/photo5a">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/pink_transparent">
+
+                     
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="About "
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="40sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Government"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="College Of Engineering"
+                    android:textStyle="bold"
+                       android:paddingLeft="6dp"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp"/>
+                        <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aurangabad"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp"/>
+                
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:id="@+id/aboutcompsal"
+        android:layout_height="215dp"
+        android:orientation="vertical"
+        android:background="@drawable/photo2">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/purple_transparent">
+
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="About "
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="40sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Science"
+                     android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="30sp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" And Engineering "
+                android:textStyle="bold"
+                     android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"/>
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department"
+                android:textStyle="bold"
+                     android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" android:background="@drawable/backimg"
+        android:orientation="vertical">       <ImageView
+     android:id="@+id/imageView2"
+     android:layout_width="300dp"
+     android:layout_height="50dp"
+     android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true"
+     android:background="@drawable/backimg" /></LinearLayout>     </LinearLayout>
+        </ScrollView>
+</LinearLayout>
